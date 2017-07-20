@@ -28,7 +28,7 @@ $('.btn3').on('click',function(){
 
 function getChannel(){
 	$.ajax({
-		url: 'http://api.jirengu.com/fm/getChannels.php',
+		url: 'https://api.jirengu.com/fm/getChannels.php',
 		dataType: 'json',
 		Method: 'get',
 		success: function(response){
@@ -45,7 +45,7 @@ function getChannel(){
 }
 function getMusic(){
 	$.ajax({
-		url: 'http://api.jirengu.com/fm/getSong.php',
+		url: 'https://api.jirengu.com/fm/getSong.php',
 		dataType: 'json',
 		Method: 'get',
 		data:{
